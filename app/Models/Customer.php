@@ -357,6 +357,11 @@ class Customer extends Model
         return $result[self::$BONUS_PCT];
     }
 
+    /**
+     * @param $id
+     * @param $amount
+     * @return array
+     */
     public function withdrawAmount($id, $amount)
     {
         $pdo = PDOhelper::instance()->getPDOObject();
@@ -386,6 +391,10 @@ class Customer extends Model
 
     }
 
+    /**
+     * @param $id
+     * @return mixed
+     */
     public function getCustomerEmail($id)
     {
         $pdo = PDOhelper::instance()->getPDOObject();
@@ -396,6 +405,10 @@ class Customer extends Model
         return $result[self::$EMAIL];
     }
 
+    /**
+     * @param $timeFrameDate
+     * @return array
+     */
     public function getCustomerTimeFrameReport($timeFrameDate)
     {
         $pdo = PDOhelper::instance()->getPDOObject();

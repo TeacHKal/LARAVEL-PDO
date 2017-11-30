@@ -146,6 +146,10 @@ class CustomersController extends Controller
         return $customerService->withdrawAmount($id, $request['amount']);
     }
 
+    /**
+     * @param int $timeFrameDate
+     * @return \Illuminate\Http\Response
+     */
     public function customersReport($timeFrameDate = 7)
     {
         $customerService = new CustomersService();
