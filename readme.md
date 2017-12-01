@@ -121,21 +121,22 @@ http://racebets.dev/api/v1/customers/report/7
 
 
 ### $ ROUTE LIST
+
 |  Method   |    URI                                  |    Name          |  Implemented |
 | --------- | --------------------------------------- | ---------------- | ------------ |
-| GET|HEAD  | api/user                                |       N/A        |     Yes      |
-| GET|HEAD  | api/v1/customer                         | customer.index   |     No       |
+| GET/HEAD  | api/user                                |       N/A        |     Yes      |
+| GET/HEAD  | api/v1/customer                         | customer.index   |     No       |
 | POST      | api/v1/customer                         | customer.store   |     YES      |
-| GET|HEAD  | api/v1/customer/create                  | customer.create  |     No       |
-| GET|HEAD  | api/v1/customer/{customer}              | customer.show    |     YES      |
-| PUT|PATCH | api/v1/customer/{customer}              | customer.update  |     YES      |
+| GET/HEAD  | api/v1/customer/create                  | customer.create  |     No       |
+| GET/HEAD  | api/v1/customer/{customer}              | customer.show    |     YES      |
+| PUT/PATCH | api/v1/customer/{customer}              | customer.update  |     YES      |
 | DELETE    | api/v1/customer/{customer}              | customer.destroy |     No       |
-| GET|HEAD  | api/v1/customer/{customer}/edit         | customer.edit    |     No       |
+| GET/HEAD  | api/v1/customer/{customer}/edit         | customer.edit    |     No       |
 | PUT       | api/v1/customer/{id}/deposit            |       N/A        |     YES      |
 | PUT       | api/v1/customer/{id}/withdraw           |       N/A        |     YES      |
-| GET|HEAD  | api/v1/customers/createTable            |       N/A        |     YES      |
-| GET|HEAD  | api/v1/customers/report                 |       N/A        |     YES      |
-| GET|HEAD  | api/v1/customers/report/{timeFrameDays} |       N/A        |     YES      |
+| GET/HEAD  | api/v1/customers/createTable            |       N/A        |     YES      |
+| GET/HEAD  | api/v1/customers/report                 |       N/A        |     YES      |
+| GET/HEAD  | api/v1/customers/report/{timeFrameDays} |       N/A        |     YES      |
 
 
 
