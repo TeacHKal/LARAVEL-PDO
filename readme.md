@@ -1,6 +1,6 @@
 # LARAVEL-PDO
 
-SETUP PROJECT LOCALLY:
+# SETUP PROJECT LOCALLY:
 (WINDOWS)
 
 1. Download XAMPP, install, run
@@ -47,7 +47,7 @@ But you can use whatever you want
 
 
 
-API CALLS:
+##API CALLS:
 
 Create Table
 Method: GET
@@ -85,7 +85,7 @@ http://racebets.dev/api/v1/customers/report/7
 
 
 
-NOTE: For better view click on the file name (readme.md) and then click on "RAW" in right top corner of text window
+##NOTE: For better view click on the file name (readme.md) and then click on "RAW" in right top corner of text window
 
 $ ROUTE LIST
  
@@ -125,7 +125,7 @@ $ ROUTE LIST
 
 
 
-TODO
+##TODO
  - Make database dipendensy injection
  - Make frontend
  - Use Aspect Oriented Programing  for SQL queries using PROXY DESIGN PATTERN
