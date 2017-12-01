@@ -1,4 +1,7 @@
-# LARAVEL-PDO
+
+
+
+# LARAVEL-PDO 
 
 ## SETUP PROJECT LOCALLY:
 (WINDOWS)
@@ -30,9 +33,9 @@ C:\xampp\htdocs\racebets
 
 
 ### 4. Change Your Hosts
-Open any text editor in "RUN AS ADMINISTRATOR" mode and go to "C:\Windows\System32\drivers\etc" and open "hosts" file. If you don't run text editor in run as administrator you won't be able to see the "etc" folder or change (save) it.
+Open any text editor in :warning: "RUN AS ADMINISTRATOR" mode and go to "C:\Windows\System32\drivers\etc" and open "hosts" file. If you don't run text editor in run as administrator you won't be able to see the "etc" folder or change (save) it.
 
-NOTE: Some antiviruses won't allow you to change the "hosts" file, you need check/uncheck option in your antivirus so you would be able to change the file.
+:warning: NOTE: Some antiviruses won't allow you to change the "hosts" file, you need check/uncheck option in your antivirus so you would be able to change the file.
 - When you open "hosts" file at the bottom add two new lines:
 ```
 127.0.0.1 localhost
@@ -120,7 +123,7 @@ http://racebets.dev/api/v1/customers/report/7
 ### $ ROUTE LIST
 |  Method   |    URI                                  |    Name          |  Implemented |
 | --------- | --------------------------------------- | ---------------- | ------------ |
-| GET|HEAD  | api/user                                |                  |     Yes      |
+| GET|HEAD  | api/user                                |       N/A        |     Yes      |
 | GET|HEAD  | api/v1/customer                         | customer.index   |     No       |
 | POST      | api/v1/customer                         | customer.store   |     YES      |
 | GET|HEAD  | api/v1/customer/create                  | customer.create  |     No       |
@@ -128,18 +131,20 @@ http://racebets.dev/api/v1/customers/report/7
 | PUT|PATCH | api/v1/customer/{customer}              | customer.update  |     YES      |
 | DELETE    | api/v1/customer/{customer}              | customer.destroy |     No       |
 | GET|HEAD  | api/v1/customer/{customer}/edit         | customer.edit    |     No       |
-| PUT       | api/v1/customer/{id}/deposit            |                  |     YES      |
-| PUT       | api/v1/customer/{id}/withdraw           |                  |     YES      |
-| GET|HEAD  | api/v1/customers/createTable            |                  |     YES      |
-| GET|HEAD  | api/v1/customers/report                 |                  |     YES      |
-| GET|HEAD  | api/v1/customers/report/{timeFrameDays} |                  |     YES      |
+| PUT       | api/v1/customer/{id}/deposit            |       N/A        |     YES      |
+| PUT       | api/v1/customer/{id}/withdraw           |       N/A        |     YES      |
+| GET|HEAD  | api/v1/customers/createTable            |       N/A        |     YES      |
+| GET|HEAD  | api/v1/customers/report                 |       N/A        |     YES      |
+| GET|HEAD  | api/v1/customers/report/{timeFrameDays} |       N/A        |     YES      |
 
 
 
-## TODO
+## TODO 
  - Make database dipendency injection
  - Make frontend
  - Use Aspect Oriented Programing  for SQL queries using PROXY DESIGN PATTERN
 
-
-:alien: :alien: :alien: 
+:alien: :alien: :alien:
+ <p align="center">
+  
+</p>
