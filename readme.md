@@ -1,12 +1,13 @@
 # LARAVEL-PDO
 
-# SETUP PROJECT LOCALLY:
+## SETUP PROJECT LOCALLY:
 (WINDOWS)
 
 1. Download XAMPP, install, run
   - Need to run both "Apache" and "MySQL"
   
 2. Go to "C:\xampp\apache\conf\extra\httpd-vhosts.conf" and add these bellow:
+```
 <VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs"
     ServerName locahost
@@ -15,6 +16,7 @@
     DocumentRoot "C:/xampp/htdocs/racebets/public"
     ServerName racebets.dev
 </VirtualHost>
+```
 
 
 3. Download (this) project from GIT as zip and unpack it in 'xampp/htdoc', full link of the folder should be: "C:\xampp\htdocs"
@@ -23,8 +25,10 @@
 4. Open any text editor in "RUN AS ADMINISTRATOR" mode and go to "C:\Windows\System32\drivers\etc" and open "hosts" file. If you don't run text editor in run as administrator you won't be able to see the "etc" folder or change (save) it.
 NOTE: Some antiviruses won't allow you to change the "hosts" file, you need check/uncheck option in your antivirus so you would be able to change the file.
 - When you open "hosts" file at the bottom add two new lines:
+```
 127.0.0.1 localhost
 127.0.0.1 racebets.dev
+```
 - We will use "racebets.dev" link instead of "localhost"
 
 
@@ -37,7 +41,7 @@ OR 5.2 (HARD VERSION ) - You can install via some SHH program like Putty, but be
 6. Open .env in the project root folder and setup your database connection
 
 
-7. Run (go to) "http://racebets.dev/api/v1/customers/createTable" to create database table
+7. Run (go to) ```"http://racebets.dev/api/v1/customers/createTable"``` to create database table
 
 
 8. TRY API
@@ -47,7 +51,7 @@ But you can use whatever you want
 
 
 
-##API CALLS:
+## API CALLS:
 
 Create Table
 Method: GET
@@ -125,7 +129,7 @@ $ ROUTE LIST
 
 
 
-##TODO
+## TODO
  - Make database dipendensy injection
  - Make frontend
  - Use Aspect Oriented Programing  for SQL queries using PROXY DESIGN PATTERN
