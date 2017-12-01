@@ -23,6 +23,10 @@ Go to "C:\xampp\apache\conf\extra\httpd-vhosts.conf" and add these bellow:
 
 ### 3. Download Git Project
 Download (this) project from GIT as zip and unpack it in 'xampp/htdoc', full link of the folder should be: "C:\xampp\htdocs"
+Be sure to rename project to "racebets" and put in "htdocs" so you should have 
+```
+C:\xampp\htdocs\racebets
+```
 
 
 ### 4. Change Your Hosts
