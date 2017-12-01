@@ -59,37 +59,51 @@ But you can use whatever you want
 
 ## API CALLS:
 
-# Create Table
+### Create Table
 ```Method: GET
 http://racebets.dev/api/v1/customers/createTable```
 
-# Add New Customer
-```Method: POST 
-http://racebets.dev/api/v1/customer```
+### Add New Customer
+```
+Method: POST 
+http://racebets.dev/api/v1/customer
+```
 
-# Deposit Money
-```Method: PUT
-http://racebets.dev/api/v1/customer/1/deposit```
+### Deposit Money
+```
+Method: PUT
+http://racebets.dev/api/v1/customer/1/deposit
+```
 
-# Withdraw Money
-```Method: PUT 
-http://racebets.dev/api/v1/customer/1/withdraw```
+### Withdraw Money
+```
+Method: PUT 
+http://racebets.dev/api/v1/customer/1/withdraw
+```
 
-# Edit Customer
-```Method: PUT 
-http://racebets.dev/api/v1/customer/1```
+### Edit Customer
+```
+Method: PUT 
+http://racebets.dev/api/v1/customer/1
+```
 
-# Get Customer
-```Method: GET
-http://racebets.dev/api/v1/customer/1```
+### Get Customer
+```
+Method: GET
+http://racebets.dev/api/v1/customer/1
+```
 
-# Report with default (7) days 
-```GET
-http://racebets.dev/api/v1/customers/report/7```
+### Report with default (7) days 
+```
+GET
+http://racebets.dev/api/v1/customers/report/7
+```
 
-# Report with manual days
-```GET
-http://racebets.dev/api/v1/customers/report/7```
+### Report with manual days
+```
+GET
+http://racebets.dev/api/v1/customers/report/7
+```
 
 
 
