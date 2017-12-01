@@ -52,56 +52,57 @@ OR 5.2 (HARD VERSION ) - You can install via some SHH program like Putty, but be
 
 ### 8. TRY API
 You can use any DHC client or what you like to try API, I use Chrome addon called "Restlet Client - Rest API Testing", 
-link for addon: https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm?hl=en
+link for addon: [DHC REST](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm?hl=en).
 But you can use whatever you want
+
 
 
 
 ## API CALLS:
 
-### Create Table
+#### Create Table
 ```
 Method: GET
 http://racebets.dev/api/v1/customers/createTable
 ```
 
-### Add New Customer
+#### Add New Customer
 ```
 Method: POST 
 http://racebets.dev/api/v1/customer
 ```
 
-### Deposit Money
+#### Deposit Money
 ```
 Method: PUT
 http://racebets.dev/api/v1/customer/1/deposit
 ```
 
-### Withdraw Money
+#### Withdraw Money
 ```
 Method: PUT 
 http://racebets.dev/api/v1/customer/1/withdraw
 ```
 
-### Edit Customer
+#### Edit Customer
 ```
 Method: PUT 
 http://racebets.dev/api/v1/customer/1
 ```
 
-### Get Customer
+#### Get Customer
 ```
 Method: GET
 http://racebets.dev/api/v1/customer/1
 ```
 
-### Report with default (7) days 
+#### Report with default (7) days 
 ```
 GET
 http://racebets.dev/api/v1/customers/report/7
 ```
 
-### Report with manual days
+#### Report with manual days
 ```
 GET
 http://racebets.dev/api/v1/customers/report/7
