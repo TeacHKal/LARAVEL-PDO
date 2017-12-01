@@ -140,3 +140,6 @@ http://racebets.dev/api/v1/customers/report/7
  - Make database dipendency injection
  - Make frontend
  - Use Aspect Oriented Programing  for SQL queries using PROXY DESIGN PATTERN
+
+
+:alien: :alien: :alien: 
