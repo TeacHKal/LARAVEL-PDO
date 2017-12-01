@@ -60,8 +60,10 @@ But you can use whatever you want
 ## API CALLS:
 
 ### Create Table
-```Method: GET
-http://racebets.dev/api/v1/customers/createTable```
+```
+Method: GET
+http://racebets.dev/api/v1/customers/createTable
+```
 
 ### Add New Customer
 ```
