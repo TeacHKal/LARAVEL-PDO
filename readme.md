@@ -31,6 +31,7 @@ C:\xampp\htdocs\racebets
 
 ### 4. Change Your Hosts
 Open any text editor in "RUN AS ADMINISTRATOR" mode and go to "C:\Windows\System32\drivers\etc" and open "hosts" file. If you don't run text editor in run as administrator you won't be able to see the "etc" folder or change (save) it.
+
 NOTE: Some antiviruses won't allow you to change the "hosts" file, you need check/uncheck option in your antivirus so you would be able to change the file.
 - When you open "hosts" file at the bottom add two new lines:
 ```
@@ -115,10 +116,6 @@ http://racebets.dev/api/v1/customers/report/7
 ```
 
 
-
-
-
-##NOTE: For better view click on the file name (readme.md) and then click on "RAW" in right top corner of text window
 
 ### $ ROUTE LIST
 |  Method   |    URI                                  |    Name          |  Implemented |
