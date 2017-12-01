@@ -38,7 +38,8 @@ NOTE: Some antiviruses won't allow you to change the "hosts" file, you need chec
 
 ### 5. Install composer
 5.1 (EASY VERSION)- Install via Visual Studio Code, use "Integrated Terminal" from view drop down and just type "composer install --prefer-dist".
-OR 5.2 (HARD VERSION ) - You can install via some SHH program like Putty, but before that you need some kind of program to set your shh, like "FreeSSHd", but good luck setting that to work locally. Anyways, you need to put the same command "composer install --prefer-dist".
+
+5.2 OR (HARD VERSION ) - You can install via some SHH program like Putty, but before that you need some kind of program to set your shh, like "FreeSSHd", but good luck setting that to work locally. Anyways, you need to put the same command "composer install --prefer-dist".
 - Choose option one with Visual Studio Code
 
 
@@ -47,6 +48,7 @@ OR 5.2 (HARD VERSION ) - You can install via some SHH program like Putty, but be
 
 ### 7. Create Database Table
 7a -Run (go to) ```"http://racebets.dev/api/v1/customers/createTable"``` to create database table
+
 7b - You can do via DHC, bellow is an example
 
 
@@ -153,6 +155,6 @@ $ ROUTE LIST
 
 
 ## TODO
- - Make database dipendensy injection
+ - Make database dipendency injection
  - Make frontend
  - Use Aspect Oriented Programing  for SQL queries using PROXY DESIGN PATTERN
