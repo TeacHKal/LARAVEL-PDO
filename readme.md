@@ -106,7 +106,7 @@ http://racebets.dev/api/v1/customer/1
 #### Report with default (7) days 
 ```
 GET
-http://racebets.dev/api/v1/customers/report/7
+http://racebets.dev/api/v1/customers/report
 ```
 
 #### Report with manual days
