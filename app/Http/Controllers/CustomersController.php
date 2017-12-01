@@ -16,7 +16,7 @@ class CustomersController extends Controller
      */
     public function index()
     {
-        return "asdf111";
+
     }
 
     /**
@@ -26,7 +26,7 @@ class CustomersController extends Controller
      */
     public function create()
     {
-        return "create GET";
+
     }
 
     /**
@@ -108,7 +108,7 @@ class CustomersController extends Controller
      */
     public function destroy($id)
     {
-        //
+
     }
 
     /**
@@ -118,7 +118,8 @@ class CustomersController extends Controller
      */
     public function createTable()
     {
-        return "23423234234";
+        $customerService = new CustomersService();
+        return $customerService->createCustomersTable();
     }
 
     /**

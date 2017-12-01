@@ -9,7 +9,7 @@
 namespace App\Services;
 
 use App\Models\Customer;
-use App\Models\CustomerReports;
+use App\Classes\CustomerCreateTable;
 
 class CustomersService
 {
@@ -79,6 +79,11 @@ class CustomersService
     {
         $customer = new Customer();
         return $customer->getCustomerTimeFrameReport($timeFrameDate);
+    }
+
+    public function createCustomersTable()
+    {
+        CustomerCreateTable::createCustomerTable();
     }
 
 
