@@ -426,7 +426,9 @@ class Customer extends Model
             GROUP BY " . Customer::$COUNTRY;
 
         $resultArray = $pdo->query($sql)->fetchAll();
-
+        if($resultArray == null){
+            return Response::response(true,"There is no records for given date.");
+        }
         return Response::response(true,"Report data has been returned.", $resultArray);
     }
 
